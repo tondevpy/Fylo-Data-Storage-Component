@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #0f1b3d;
+}
+@media screen and (min-width: 601px) {
+  .app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  .files {
+    background: #1e2d69;
+    padding: 40px;
+    border-radius: 10px 100px 10px 10px;
+    margin-bottom: 16px;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 33px;
+    margin-right: 5rem;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #0c122c;
+    border-radius: 10px;
+  }
+  .storage {
+    padding: 32px;
+    background: #1e2d69;
+    border-radius: 10px;
+    position: relative;
+    width: 500px;
+  }
+  .storage p {
+    margin-top: 32px;
+    color: #fff;
+    text-align: center;
+  }
+  .progress-bar {
+    margin-top: 16px;
+  }
+  .gbs {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: bold;
+  }
+  .left {
+    position: absolute;
+    top: -35px;
+    right: 40px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .firts {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #0c122c;
+  }
+  .gbLeft {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #868996;
+  }
+
+
+  .progress-bar {
+    width: 100%;
+    height: 20px; 
+    background-color: #15204a;
+    border-radius: 10px; 
+    padding: 3px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-image:linear-gradient(0deg, rgba(255, 161.0000056028366, 151.00000619888306, 1) 0%,rgba(255, 74.0000031888485, 149.00000631809235, 1) 100%) ;
+    border-radius: 10px; 
+    width: 80%; 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .circle {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 3px;
+  }
+}
+@media screen and (max-width: 868px) {
+  .app {
+    background: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .storage {
+    padding: 32px;
+    background: #1e2d69;
+    border-radius: 10px;
+    position: relative;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f1b3d;
+    background: url(./images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content {
+    padding: 24px;
+  }
+  .files {
+    background: #1e2d69;
+    padding: 40px;
+    border-radius: 10px 100px 10px 10px;
+    margin-bottom: 16px;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 33px;
+    margin-right: 5rem;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #0c122c;
+    border-radius: 10px;
+  }
+  .storage {
+    padding: 32px;
+    background: #1e2d69;
+    border-radius: 10px;
+    position: relative;
+  }
+  .storage p {
+    margin-top: 32px;
+    color: #fff;
+    text-align: center;
+  }
+  .progress-bar {
+    margin-top: 16px;
+  }
+  .gbs {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: bold;
+  }
+  .left {
+    position: absolute;
+    bottom: -35px;
+    left: 23%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .firts {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #0c122c;
+  }
+  .gbLeft {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #868996;
+  }
+
+
+  .progress-bar {
+    width: 100%;
+    height: 20px; 
+    background-color: #15204a; 
+    border-radius: 10px; 
+    padding: 3px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-image:linear-gradient(0deg, rgba(255, 161.0000056028366, 151.00000619888306, 1) 0%,rgba(255, 74.0000031888485, 149.00000631809235, 1) 100%) ;
+    border-radius: 10px; 
+    width: 80%; 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .circle {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 3px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 33px;
+    margin-right: 1.0rem;
+  }
+}
