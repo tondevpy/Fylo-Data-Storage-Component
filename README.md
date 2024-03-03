@@ -7,7 +7,7 @@ Versão desktop
 
 Versão Mobile
 <p align="center">
-  <img src="https://ibb.co/88PHM7P" alt="Descrição da imagem">
+  <img src="https://i.ibb.co/s3sZjVs/Screenshot-8.png" alt="Descrição da imagem">
 </p>
 
 
